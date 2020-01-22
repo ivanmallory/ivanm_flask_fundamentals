@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Legends</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container bg-dark mw-100 mh-500 p-5">
+        <div class="header">
+                <h1 class="text-center bg-primary text-white p-5">The Coding Legends</h1>
+                <h3 class="text-center bg-dark text-white p-2">Learn to Code Today!!!</h3>
+        </div>
+        <table class="table table-dark text-white">
+            <thead>
+                <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Full Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{users[0]['first_name']}}</td>
+                    <td>{{users[0]['last_name']}}</td>
+                    <td>{{users[0]['first_name']}} {{users[0]['last_name']}}</td>
+                </tr>
+                <tr>
+                    <td>{{users[1]['first_name']}}</td>
+                    <td>{{users[1]['last_name']}}</td>
+                    <td>{{users[1]['first_name']}} {{users[1]['last_name']}}</td>
+                <tr>
+                <tr>
+                    <td>{{users[2]['first_name']}}</td>
+                    <td>{{users[2]['last_name']}}</td>
+                    <td>{{users[2]['first_name']}} {{users[2]['last_name']}}</td>
+                <tr>
+                <tr>
+                    <td>{{users[3]['first_name']}}</td>
+                    <td>{{users[3]['last_name']}}</td>
+                    <td>{{users[3]['first_name']}} {{users[3]['last_name']}}</td>
+                <tr>
+            </tbody>
+        </table>
+        <a class="btn btn-secondary d-block text-center" href="/" role="button">Home</a>
+    </div>
+</body>
+</html>

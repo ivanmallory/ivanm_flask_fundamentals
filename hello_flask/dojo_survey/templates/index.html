@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Submission</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container bg-primary text-white text-center p-5">
+        <h1 class="bg-dark p-3 m-3">Welcome to Coding Dojo!</h1>
+        <div class="form d-inline-block text-justify bg-dark p-3">
+            <form action='/result' method='post'>
+                <p>Your Name: <input type="text" name="name"></p>
+                <div class="dojo_location text-center">    
+                    <p>Dojo Location:
+                        <br>
+                        <input type="radio" name="dojo_location" value="Bellevue"> Bellevue<br>
+                        <input type="radio" name="dojo_location" value="Chicago"> Chicago<br>
+                        <input type="radio" name="dojo_location" value="New York"> New York<br>
+                        <input type="radio" name="dojo_location" value="San Francisco"> San Francisco<br>
+                    </p>
+                </div>
+                <div class="language text-center">
+                    <p>Favorite Language: 
+                        <br>
+                        <input type="checkbox" name="language" value="Python"> Python<br>
+                        <input type="checkbox" name="language" value="Javascript"> Javascript<br>
+                        <input type="checkbox" name="language" value="HTML"> HTML<br>
+                        <input type="checkbox" name="language" value="CSS"> CSS<br>
+                    </p>
+                <p>Comment(optional): <textarea class="align-middle" name="comment"></textarea></p>
+                <input class="btn btn-secondary d-block mx-auto" type="submit" value="Submit"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
